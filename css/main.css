@@ -753,9 +753,19 @@ input::-webkit-outer-spin-button {
   align-items: center;
   margin-bottom: 30px;
 }
+@media (max-width: 576px) {
+  .filter {
+    flex-direction: column;
+  }
+}
 .filter .found {
   display: flex;
   align-items: center;
+}
+@media (max-width: 576px) {
+  .filter .found {
+    flex-direction: column;
+  }
 }
 .filter .found-number {
   font-weight: 700;
@@ -765,6 +775,12 @@ input::-webkit-outer-spin-button {
   background: #fafafa;
   border: 1px solid #ececec;
   margin: 0px 8px;
+}
+@media (max-width: 576px) {
+  .filter .found-number {
+    flex-direction: column;
+    margin: 8px;
+  }
 }
 .filter .switcher-wrapper {
   margin-right: 8px;
@@ -796,6 +812,11 @@ input::-webkit-outer-spin-button {
   font-size: 13px;
   border-bottom: 1px solid #ececec;
   padding: 2px 5px;
+}
+@media (max-width: 576px) {
+  .filter .products-count {
+    margin-top: 8px;
+  }
 }
 
 .products-el__dropdown.more-info p {
