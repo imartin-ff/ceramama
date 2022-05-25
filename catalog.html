@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- title -->
+    <title>ceramama</title>
+
+
+    <!-- fonts -->
+
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+<body>
+
+
+<div class="site-container">  <!-- site-container -->
+    <header class="header">
+        <div class="container">
+
+        </div>
+    </header>
+
+<div class="page-container">
+  <div class="container">
+    <section class="sec-products">
+      <div class="container container-with-aside">
+        <aside class="categories">
+          <h3 class="categories-title">Популярные подборки</h3>
+          <div class="categories__type">
+            <h4 class="categories__type-title">
+              Производитель
+              <svg
+                width="21"
+                height="20"
+                viewBox="0 0 21 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect x="0.5" width="20" height="20" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1222_3224"
+                      transform="scale(0.05)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1222_3224"
+                    width="20"
+                    height="20"
+                    xlink:href="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QMuaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA3LjEtYzAwMCA3OS5iMGY4YmU5MCwgMjAyMS8xMi8xNS0yMToyNToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjIgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjIyNjFBMzY1RDMwQjExRUNBMDI3QzhGNDRDNDQwRjY3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjIyNjFBMzY2RDMwQjExRUNBMDI3QzhGNDRDNDQwRjY3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjI2MUEzNjNEMzBCMTFFQ0EwMjdDOEY0NEM0NDBGNjciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjI2MUEzNjREMzBCMTFFQ0EwMjdDOEY0NEM0NDBGNjciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAAUABQDAREAAhEBAxEB/8QAVgABAAMBAAAAAAAAAAAAAAAAAAcICQoBAQAAAAAAAAAAAAAAAAAAAAAQAAEEAwEAAAAAAAAAAAAAAAUCBAYHAAMIAREBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7+MBgMCIb7o6AdJVDN6StBmSeQqeDWzMksKVdgjwp+KKMJBHJJHTTJSXIiSxSTCWZMc5T4rzQ+aalqQtPnqFBSzmrjroUXbIi5e1ugWnQctozyQwXlhrFGBCIxoJDSgZ3GSN22lH9elixkHTFhRUo4Fld2vxwGEsVbkD/VKe7l6w0xwGAwGB/9k="
+                  />
+                </defs>
+              </svg>
+            </h4>
+            <ul class="categories__type-items categories__type-items--hide">
+              <li><a href="">Marazzi</a></li>
+              <li><a href="">Kerama Marazzi</a></li>
+              <li><a href="">Cersanit</a></li>
+              <li><a href="">Нефрит-Керамика</a></li>
+              <li><a href="">Gracia Ceramica</a></li>
+              <li><a href="">Creto</a></li>
+              <li><a href="">Italon</a></li>
+              <li><a href="">Vitra</a></li>
+              <li><a href="">Villeroy&Boch</a></li>
+              <li><a href="">Estima</a></li>
+              <li><a href="">Argenta</a></li>
+              <li><a href="">Atlas Concorde</a></li>
+              <li><a href="">APE</a></li>
+              <li><a href="">Meissen</a></li>
+              <li><a href="">Rango</a></li>
+            </ul>
+          </div>
+
+          <div class="categories__type">
+            <h4 class="categories__type-title">
+              Страна
+              <svg
+                width="21"
+                height="20"
+                viewBox="0 0 21 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect x="0.5" width="20" height="20" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1222_3224"
+                      transform="scale(0.05)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1222_3224"
+                    width="20"
+                    height="20"
+                    xlink:href="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QMuaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA3LjEtYzAwMCA3OS5iMGY4YmU5MCwgMjAyMS8xMi8xNS0yMToyNToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjIgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjIyNjFBMzY1RDMwQjExRUNBMDI3QzhGNDRDNDQwRjY3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjIyNjFBMzY2RDMwQjExRUNBMDI3QzhGNDRDNDQwRjY3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjI2MUEzNjNEMzBCMTFFQ0EwMjdDOEY0NEM0NDBGNjciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjI2MUEzNjREMzBCMTFFQ0EwMjdDOEY0NEM0NDBGNjciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAAUABQDAREAAhEBAxEB/8QAVgABAAMBAAAAAAAAAAAAAAAAAAcICQoBAQAAAAAAAAAAAAAAAAAAAAAQAAEEAwEAAAAAAAAAAAAAAAUCBAYHAAMIAREBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7+MBgMCIb7o6AdJVDN6StBmSeQqeDWzMksKVdgjwp+KKMJBHJJHTTJSXIiSxSTCWZMc5T4rzQ+aalqQtPnqFBSzmrjroUXbIi5e1ugWnQctozyQwXlhrFGBCIxoJDSgZ3GSN22lH9elixkHTFhRUo4Fld2vxwGEsVbkD/VKe7l6w0xwGAwGB/9k="
+                  />
+                </defs>
+              </svg>
+            </h4>
+            <ul class="categories__type-items categories__type-items--hide">
+              <li><a href="">Испания</a></li>
+              <li><a href="">Италия</a></li>
+              <li><a href="">Россия</a></li>
+              <li><a href="">Украина</a></li>
+              <li><a href="">Индия</a></li>
+              <li><a href="">Турция</a></li>
+              <li><a href="">Германия</a></li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="sec-products__wrap">
+          <div class="sec-products__content">
+            <div class="filter">
+              <div class="found">
+                Найдено
+                <div class="found-number">3002 КОЛЛЕКЦИИ</div>
+
+                <div class="switcher-wrapper">
+                  <input
+                    type="checkbox"
+                    name="collection-switcher"
+                    id="collection-switcher"
+                  />
+                  <label for="collection-switcher" class="switcher-item">
+                    <div></div>
+                  </label>
+                </div>
+              </div>
+              <div class="products-count">32 822 ТОВАРА</div>
+            </div>
+            <div class="block-products block-products_limit">
+              <div class="block-products__el">
+                <div class="products-el">
+                  <div class="products-el__topWrap">
+                    <div class="products-el__top">
+                      <div class="product-el-hint">
+                        <div class="hint-sale">-30%</div>
+                        <div class="hint-new">NEW</div>
+                      </div>
+
+                      <div class="products-el__actions block-actions-pr">
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            class="actions-pr-el__icon"
+                            width="16"
+                            height="14"
+                            viewBox="0 0 16 14"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="stroke"
+                              d="M7.35547 2.48352L8 3.56668L8.64453 2.48352C9.28047 1.41478 10.3879 0.75 11.6364 0.75C13.5755 0.75 15.25 2.46599 15.25 4.66667C15.25 5.62234 14.8372 6.64038 14.1315 7.6696C13.43 8.69261 12.48 9.66676 11.5061 10.5189C10.5355 11.3682 9.56133 12.0788 8.82803 12.5779C8.4928 12.806 8.20934 12.989 8.00146 13.1197C7.79341 12.9879 7.50951 12.8035 7.17368 12.5736C6.44014 12.0714 5.46566 11.357 4.49465 10.505C3.5204 9.65015 2.57001 8.67446 1.86822 7.65272C1.1618 6.62424 0.75 5.61145 0.75 4.66667C0.75 2.46599 2.42448 0.75 4.36364 0.75C5.6121 0.75 6.71953 1.41478 7.35547 2.48352Z"
+                              stroke="#999999"
+                              stroke-width="1.5"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="18"
+                            height="16"
+                            viewBox="0 0 18 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M17.7001 7.00005C17.7001 6.50005 17.5001 6.10005 17.2001 5.80005C16.9001 5.50005 16.4 5.30005 16 5.30005H14.7V4.00005C14.7 3.00005 14.3 2.10005 13.6 1.40005C12.9 0.700049 12 0.300049 11 0.300049C10 0.300049 9.10005 0.700049 8.40005 1.40005C7.70005 2.10005 7.30005 3.00005 7.30005 4.00005V5.30005H1.00005C0.800049 5.30005 0.600049 5.40005 0.500049 5.50005C0.400049 5.60005 0.300049 5.80005 0.300049 6.00005C0.300049 6.20005 0.400049 6.40005 0.500049 6.50005C0.600049 6.60005 0.800049 6.70005 1.00005 6.70005H13.3V9.00005C13.3 9.20005 13.4 9.40005 13.5 9.50005C13.8 9.80005 14.2 9.80005 14.5 9.50005C14.6 9.40005 14.7 9.20005 14.7 9.00005V6.70005H16.3V14.3H5.70005V11.3H4.30005V14C4.30005 14.4 4.50005 14.9 4.80005 15.2C5.10005 15.5 5.50005 15.7 6.00005 15.7H16C16.5 15.7 16.9001 15.5 17.2001 15.2C17.5001 14.9 17.7001 14.5 17.7001 14V7.00005ZM13.3 5.30005H8.70005V4.00005C8.70005 3.40005 8.90005 2.80005 9.40005 2.40005C9.80005 2.00005 10.4 1.70005 11 1.70005C11.6 1.70005 12.2 1.90005 12.6 2.40005C13 2.80005 13.3 3.40005 13.3 4.00005V5.30005V5.30005Z"
+                              fill="#999999"
+                            ></path>
+                            <path
+                              class="fill"
+                              d="M3.00005 9.70005H8.00005C8.20005 9.70005 8.40005 9.60005 8.50005 9.50005C8.60005 9.40005 8.70005 9.20005 8.70005 9.00005C8.70005 8.80005 8.60005 8.60005 8.50005 8.50005C8.40005 8.40005 8.20005 8.30005 8.00005 8.30005H3.00005C2.80005 8.30005 2.60005 8.40005 2.50005 8.50005C2.40005 8.60005 2.30005 8.80005 2.30005 9.00005C2.30005 9.20005 2.40005 9.40005 2.50005 9.50005C2.60005 9.60005 2.80005 9.70005 3.00005 9.70005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="16"
+                            height="12"
+                            viewBox="0 0 16 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M0.300049 6.00005C0.800049 7.60005 1.80005 9.00005 3.20005 10.1C4.60005 11.1 6.30005 11.7 8.00005 11.7C9.70005 11.7 11.4 11.1 12.8 10.1C14.2 9.10005 15.2 7.70005 15.7 6.00005C15.2 4.40005 14.2 2.90005 12.8 1.90005C11.4 0.900049 9.70005 0.300049 8.00005 0.300049C6.30005 0.300049 4.60005 0.900049 3.20005 1.90005C1.80005 2.90005 0.800049 4.40005 0.300049 6.00005ZM4.70005 2.80005C4.70005 2.80005 4.70005 2.70005 4.70005 2.80005V2.60005L4.90005 2.50005C6.80005 1.50005 9.20005 1.50005 11.1 2.50005L11.2 2.60005V2.80005C11.2 2.80005 11.2 2.80005 11.2 2.90005C11.2 3.00005 11.2 3.00005 11.2 3.10005C11.2 4.00005 10.9 4.80005 10.2 5.40005C9.60005 6.00005 8.70005 6.40005 7.90005 6.40005C7.10005 6.40005 6.30005 6.00005 5.70005 5.30005C5.00005 4.70005 4.70005 3.90005 4.70005 3.00005C4.70005 2.90005 4.70005 2.80005 4.70005 2.80005ZM3.30005 3.60005L3.40005 4.20005C3.70005 5.20005 4.20005 6.10005 5.10005 6.70005C5.90005 7.30005 6.90005 7.70005 8.00005 7.70005C9.00005 7.70005 10.1 7.30005 10.9 6.70005C11.7 6.10005 12.3 5.20005 12.6 4.20005L12.7 3.60005L13.1 4.00005C13.6 4.60005 14 5.20005 14.3 5.80005V6.00005L14.2 6.10005C13.7 7.30005 12.8 8.40005 11.7 9.10005C10.6 9.80005 9.40005 10.2 8.10005 10.3H8.00005H7.90005C6.60005 10.3 5.40005 9.90005 4.30005 9.10005C3.20005 8.40005 2.30005 7.30005 1.80005 6.10005L1.70005 6.00005L1.80005 5.90005C2.10005 5.20005 2.50005 4.60005 2.90005 4.00005L3.30005 3.60005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                      </div>
+
+                      <a href="#" class="products-el__hover"
+                        ><div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div
+                      ></a>
+                      <div class="products-el__img">
+                        <img
+                          src="/img/1.jpg"
+                          src=""
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/2.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/3.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products-el__body">
+                    <div class="products-el__dots block-dots">
+                      <div class="block-dots__el active"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                    </div>
+
+                    <a href="#" class="products-el__title"
+                      >Керамическая плитка для стен Roca Abbey Suite Lines Roble
+                      Rectificado 40x120</a
+                    >
+                    <div class="products-el__info">
+                      <p>Страна: Россия</p>
+                      <p>Коллекция: Agat</p>
+                    </div>
+                    <div class="products-el__cost">990 руб/шт</div>
+                  </div>
+                  <div class="products-el__dropdown more-info">
+                    <div class="products-el__info">
+                      <p>Страна: Россия</p>
+                      <p>Коллекция: Agat</p>
+                    </div>
+
+                    <a href="#" class="btn-def products-el__btn"
+                      ><span>в корзину</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-products__el">
+                <div class="products-el">
+                  <div class="products-el__topWrap">
+                    <div class="products-el__top">
+                      <div class="product-el-hint">
+                        <div class="hint-sale">-30%</div>
+                      </div>
+
+                      <div class="products-el__actions block-actions-pr">
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            class="actions-pr-el__icon"
+                            width="16"
+                            height="14"
+                            viewBox="0 0 16 14"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="stroke"
+                              d="M7.35547 2.48352L8 3.56668L8.64453 2.48352C9.28047 1.41478 10.3879 0.75 11.6364 0.75C13.5755 0.75 15.25 2.46599 15.25 4.66667C15.25 5.62234 14.8372 6.64038 14.1315 7.6696C13.43 8.69261 12.48 9.66676 11.5061 10.5189C10.5355 11.3682 9.56133 12.0788 8.82803 12.5779C8.4928 12.806 8.20934 12.989 8.00146 13.1197C7.79341 12.9879 7.50951 12.8035 7.17368 12.5736C6.44014 12.0714 5.46566 11.357 4.49465 10.505C3.5204 9.65015 2.57001 8.67446 1.86822 7.65272C1.1618 6.62424 0.75 5.61145 0.75 4.66667C0.75 2.46599 2.42448 0.75 4.36364 0.75C5.6121 0.75 6.71953 1.41478 7.35547 2.48352Z"
+                              stroke="#999999"
+                              stroke-width="1.5"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="18"
+                            height="16"
+                            viewBox="0 0 18 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M17.7001 7.00005C17.7001 6.50005 17.5001 6.10005 17.2001 5.80005C16.9001 5.50005 16.4 5.30005 16 5.30005H14.7V4.00005C14.7 3.00005 14.3 2.10005 13.6 1.40005C12.9 0.700049 12 0.300049 11 0.300049C10 0.300049 9.10005 0.700049 8.40005 1.40005C7.70005 2.10005 7.30005 3.00005 7.30005 4.00005V5.30005H1.00005C0.800049 5.30005 0.600049 5.40005 0.500049 5.50005C0.400049 5.60005 0.300049 5.80005 0.300049 6.00005C0.300049 6.20005 0.400049 6.40005 0.500049 6.50005C0.600049 6.60005 0.800049 6.70005 1.00005 6.70005H13.3V9.00005C13.3 9.20005 13.4 9.40005 13.5 9.50005C13.8 9.80005 14.2 9.80005 14.5 9.50005C14.6 9.40005 14.7 9.20005 14.7 9.00005V6.70005H16.3V14.3H5.70005V11.3H4.30005V14C4.30005 14.4 4.50005 14.9 4.80005 15.2C5.10005 15.5 5.50005 15.7 6.00005 15.7H16C16.5 15.7 16.9001 15.5 17.2001 15.2C17.5001 14.9 17.7001 14.5 17.7001 14V7.00005ZM13.3 5.30005H8.70005V4.00005C8.70005 3.40005 8.90005 2.80005 9.40005 2.40005C9.80005 2.00005 10.4 1.70005 11 1.70005C11.6 1.70005 12.2 1.90005 12.6 2.40005C13 2.80005 13.3 3.40005 13.3 4.00005V5.30005V5.30005Z"
+                              fill="#999999"
+                            ></path>
+                            <path
+                              class="fill"
+                              d="M3.00005 9.70005H8.00005C8.20005 9.70005 8.40005 9.60005 8.50005 9.50005C8.60005 9.40005 8.70005 9.20005 8.70005 9.00005C8.70005 8.80005 8.60005 8.60005 8.50005 8.50005C8.40005 8.40005 8.20005 8.30005 8.00005 8.30005H3.00005C2.80005 8.30005 2.60005 8.40005 2.50005 8.50005C2.40005 8.60005 2.30005 8.80005 2.30005 9.00005C2.30005 9.20005 2.40005 9.40005 2.50005 9.50005C2.60005 9.60005 2.80005 9.70005 3.00005 9.70005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="16"
+                            height="12"
+                            viewBox="0 0 16 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M0.300049 6.00005C0.800049 7.60005 1.80005 9.00005 3.20005 10.1C4.60005 11.1 6.30005 11.7 8.00005 11.7C9.70005 11.7 11.4 11.1 12.8 10.1C14.2 9.10005 15.2 7.70005 15.7 6.00005C15.2 4.40005 14.2 2.90005 12.8 1.90005C11.4 0.900049 9.70005 0.300049 8.00005 0.300049C6.30005 0.300049 4.60005 0.900049 3.20005 1.90005C1.80005 2.90005 0.800049 4.40005 0.300049 6.00005ZM4.70005 2.80005C4.70005 2.80005 4.70005 2.70005 4.70005 2.80005V2.60005L4.90005 2.50005C6.80005 1.50005 9.20005 1.50005 11.1 2.50005L11.2 2.60005V2.80005C11.2 2.80005 11.2 2.80005 11.2 2.90005C11.2 3.00005 11.2 3.00005 11.2 3.10005C11.2 4.00005 10.9 4.80005 10.2 5.40005C9.60005 6.00005 8.70005 6.40005 7.90005 6.40005C7.10005 6.40005 6.30005 6.00005 5.70005 5.30005C5.00005 4.70005 4.70005 3.90005 4.70005 3.00005C4.70005 2.90005 4.70005 2.80005 4.70005 2.80005ZM3.30005 3.60005L3.40005 4.20005C3.70005 5.20005 4.20005 6.10005 5.10005 6.70005C5.90005 7.30005 6.90005 7.70005 8.00005 7.70005C9.00005 7.70005 10.1 7.30005 10.9 6.70005C11.7 6.10005 12.3 5.20005 12.6 4.20005L12.7 3.60005L13.1 4.00005C13.6 4.60005 14 5.20005 14.3 5.80005V6.00005L14.2 6.10005C13.7 7.30005 12.8 8.40005 11.7 9.10005C10.6 9.80005 9.40005 10.2 8.10005 10.3H8.00005H7.90005C6.60005 10.3 5.40005 9.90005 4.30005 9.10005C3.20005 8.40005 2.30005 7.30005 1.80005 6.10005L1.70005 6.00005L1.80005 5.90005C2.10005 5.20005 2.50005 4.60005 2.90005 4.00005L3.30005 3.60005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                      </div>
+
+                      <a href="#" class="products-el__hover"
+                        ><div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div
+                      ></a>
+                      <div class="products-el__img">
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/2.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/3.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products-el__body">
+                    <div class="products-el__dots block-dots">
+                      <div class="block-dots__el active"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                    </div>
+
+                    <a href="#" class="products-el__title"
+                      >Керамическая плитка для стен Roca Abbey Suite Lines Roble
+                      Rectificado 40x120</a
+                    >
+                    <div class="products-el__info">
+                      <p>Страна: Россия</p>
+                      <p>Коллекция: Agat</p>
+                    </div>
+                    <div class="products-el__cost">990 руб/шт</div>
+                  </div>
+                  <div class="products-el__dropdown wrap-calc">
+                    <div
+                      class="block-calc-product products-el__calc"
+                      data-count="8"
+                      data-m="1.44"
+                      data-cost="990"
+                    >
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="number"
+                            class="calc-product-act__inp block-calc-product__count"
+                            value="8"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">шт</div>
+                      </div>
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="text"
+                            class="calc-product-act__inp block-calc-product__m"
+                            value="1.44"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">м<sup>2</sup></div>
+                      </div>
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="text"
+                            class="calc-product-act__inp block-calc-product__pack"
+                            value="1"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">уп</div>
+                      </div>
+                    </div>
+                    <p class="text-info-gray text-info-gray_margin">
+                      Общая стоимость
+                    </p>
+                    <p class="text-cost wrap-calc__cost">
+                      <span class="wrap-calc__cost-val">990</span> руб
+                    </p>
+                    <a href="#" class="btn-def products-el__btn"
+                      ><span>в корзину</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-products__el">
+                <div class="products-el">
+                  <div class="products-el__topWrap">
+                    <div class="products-el__top">
+                      <div class="product-el-hint">
+                        <div class="hint-sale">-30%</div>
+                      </div>
+
+                      <div class="products-el__actions block-actions-pr">
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            class="actions-pr-el__icon"
+                            width="16"
+                            height="14"
+                            viewBox="0 0 16 14"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="stroke"
+                              d="M7.35547 2.48352L8 3.56668L8.64453 2.48352C9.28047 1.41478 10.3879 0.75 11.6364 0.75C13.5755 0.75 15.25 2.46599 15.25 4.66667C15.25 5.62234 14.8372 6.64038 14.1315 7.6696C13.43 8.69261 12.48 9.66676 11.5061 10.5189C10.5355 11.3682 9.56133 12.0788 8.82803 12.5779C8.4928 12.806 8.20934 12.989 8.00146 13.1197C7.79341 12.9879 7.50951 12.8035 7.17368 12.5736C6.44014 12.0714 5.46566 11.357 4.49465 10.505C3.5204 9.65015 2.57001 8.67446 1.86822 7.65272C1.1618 6.62424 0.75 5.61145 0.75 4.66667C0.75 2.46599 2.42448 0.75 4.36364 0.75C5.6121 0.75 6.71953 1.41478 7.35547 2.48352Z"
+                              stroke="#999999"
+                              stroke-width="1.5"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="18"
+                            height="16"
+                            viewBox="0 0 18 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M17.7001 7.00005C17.7001 6.50005 17.5001 6.10005 17.2001 5.80005C16.9001 5.50005 16.4 5.30005 16 5.30005H14.7V4.00005C14.7 3.00005 14.3 2.10005 13.6 1.40005C12.9 0.700049 12 0.300049 11 0.300049C10 0.300049 9.10005 0.700049 8.40005 1.40005C7.70005 2.10005 7.30005 3.00005 7.30005 4.00005V5.30005H1.00005C0.800049 5.30005 0.600049 5.40005 0.500049 5.50005C0.400049 5.60005 0.300049 5.80005 0.300049 6.00005C0.300049 6.20005 0.400049 6.40005 0.500049 6.50005C0.600049 6.60005 0.800049 6.70005 1.00005 6.70005H13.3V9.00005C13.3 9.20005 13.4 9.40005 13.5 9.50005C13.8 9.80005 14.2 9.80005 14.5 9.50005C14.6 9.40005 14.7 9.20005 14.7 9.00005V6.70005H16.3V14.3H5.70005V11.3H4.30005V14C4.30005 14.4 4.50005 14.9 4.80005 15.2C5.10005 15.5 5.50005 15.7 6.00005 15.7H16C16.5 15.7 16.9001 15.5 17.2001 15.2C17.5001 14.9 17.7001 14.5 17.7001 14V7.00005ZM13.3 5.30005H8.70005V4.00005C8.70005 3.40005 8.90005 2.80005 9.40005 2.40005C9.80005 2.00005 10.4 1.70005 11 1.70005C11.6 1.70005 12.2 1.90005 12.6 2.40005C13 2.80005 13.3 3.40005 13.3 4.00005V5.30005V5.30005Z"
+                              fill="#999999"
+                            ></path>
+                            <path
+                              class="fill"
+                              d="M3.00005 9.70005H8.00005C8.20005 9.70005 8.40005 9.60005 8.50005 9.50005C8.60005 9.40005 8.70005 9.20005 8.70005 9.00005C8.70005 8.80005 8.60005 8.60005 8.50005 8.50005C8.40005 8.40005 8.20005 8.30005 8.00005 8.30005H3.00005C2.80005 8.30005 2.60005 8.40005 2.50005 8.50005C2.40005 8.60005 2.30005 8.80005 2.30005 9.00005C2.30005 9.20005 2.40005 9.40005 2.50005 9.50005C2.60005 9.60005 2.80005 9.70005 3.00005 9.70005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="16"
+                            height="12"
+                            viewBox="0 0 16 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M0.300049 6.00005C0.800049 7.60005 1.80005 9.00005 3.20005 10.1C4.60005 11.1 6.30005 11.7 8.00005 11.7C9.70005 11.7 11.4 11.1 12.8 10.1C14.2 9.10005 15.2 7.70005 15.7 6.00005C15.2 4.40005 14.2 2.90005 12.8 1.90005C11.4 0.900049 9.70005 0.300049 8.00005 0.300049C6.30005 0.300049 4.60005 0.900049 3.20005 1.90005C1.80005 2.90005 0.800049 4.40005 0.300049 6.00005ZM4.70005 2.80005C4.70005 2.80005 4.70005 2.70005 4.70005 2.80005V2.60005L4.90005 2.50005C6.80005 1.50005 9.20005 1.50005 11.1 2.50005L11.2 2.60005V2.80005C11.2 2.80005 11.2 2.80005 11.2 2.90005C11.2 3.00005 11.2 3.00005 11.2 3.10005C11.2 4.00005 10.9 4.80005 10.2 5.40005C9.60005 6.00005 8.70005 6.40005 7.90005 6.40005C7.10005 6.40005 6.30005 6.00005 5.70005 5.30005C5.00005 4.70005 4.70005 3.90005 4.70005 3.00005C4.70005 2.90005 4.70005 2.80005 4.70005 2.80005ZM3.30005 3.60005L3.40005 4.20005C3.70005 5.20005 4.20005 6.10005 5.10005 6.70005C5.90005 7.30005 6.90005 7.70005 8.00005 7.70005C9.00005 7.70005 10.1 7.30005 10.9 6.70005C11.7 6.10005 12.3 5.20005 12.6 4.20005L12.7 3.60005L13.1 4.00005C13.6 4.60005 14 5.20005 14.3 5.80005V6.00005L14.2 6.10005C13.7 7.30005 12.8 8.40005 11.7 9.10005C10.6 9.80005 9.40005 10.2 8.10005 10.3H8.00005H7.90005C6.60005 10.3 5.40005 9.90005 4.30005 9.10005C3.20005 8.40005 2.30005 7.30005 1.80005 6.10005L1.70005 6.00005L1.80005 5.90005C2.10005 5.20005 2.50005 4.60005 2.90005 4.00005L3.30005 3.60005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                      </div>
+
+                      <a href="#" class="products-el__hover"
+                        ><div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div
+                      ></a>
+                      <div class="products-el__img">
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/2.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/3.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products-el__body">
+                    <div class="products-el__dots block-dots">
+                      <div class="block-dots__el active"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                    </div>
+
+                    <a href="#" class="products-el__title"
+                      >Керамическая плитка для стен Roca Abbey Suite Lines Roble
+                      Rectificado 40x120</a
+                    >
+                    <div class="products-el__info">
+                      <p>Страна: Россия</p>
+                      <p>Коллекция: Agat</p>
+                    </div>
+                    <div class="products-el__cost">990 руб/шт</div>
+                  </div>
+                  <div class="products-el__dropdown wrap-calc">
+                    <div
+                      class="block-calc-product products-el__calc"
+                      data-count="8"
+                      data-m="1.44"
+                      data-cost="990"
+                    >
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="number"
+                            class="calc-product-act__inp block-calc-product__count"
+                            value="8"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">шт</div>
+                      </div>
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="text"
+                            class="calc-product-act__inp block-calc-product__m"
+                            value="1.44"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">м<sup>2</sup></div>
+                      </div>
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="text"
+                            class="calc-product-act__inp block-calc-product__pack"
+                            value="1"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">уп</div>
+                      </div>
+                    </div>
+                    <p class="text-info-gray text-info-gray_margin">
+                      Общая стоимость
+                    </p>
+                    <p class="text-cost wrap-calc__cost">
+                      <span class="wrap-calc__cost-val">990</span> руб
+                    </p>
+                    <a href="#" class="btn-def products-el__btn"
+                      ><span>в корзину</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-products__el">
+                <div class="products-el">
+                  <div class="products-el__topWrap">
+                    <div class="products-el__top">
+                      <div class="product-el-hint">
+                        <div class="hint-sale">-30%</div>
+                      </div>
+
+                      <div class="products-el__actions block-actions-pr">
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            class="actions-pr-el__icon"
+                            width="16"
+                            height="14"
+                            viewBox="0 0 16 14"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="stroke"
+                              d="M7.35547 2.48352L8 3.56668L8.64453 2.48352C9.28047 1.41478 10.3879 0.75 11.6364 0.75C13.5755 0.75 15.25 2.46599 15.25 4.66667C15.25 5.62234 14.8372 6.64038 14.1315 7.6696C13.43 8.69261 12.48 9.66676 11.5061 10.5189C10.5355 11.3682 9.56133 12.0788 8.82803 12.5779C8.4928 12.806 8.20934 12.989 8.00146 13.1197C7.79341 12.9879 7.50951 12.8035 7.17368 12.5736C6.44014 12.0714 5.46566 11.357 4.49465 10.505C3.5204 9.65015 2.57001 8.67446 1.86822 7.65272C1.1618 6.62424 0.75 5.61145 0.75 4.66667C0.75 2.46599 2.42448 0.75 4.36364 0.75C5.6121 0.75 6.71953 1.41478 7.35547 2.48352Z"
+                              stroke="#999999"
+                              stroke-width="1.5"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="18"
+                            height="16"
+                            viewBox="0 0 18 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M17.7001 7.00005C17.7001 6.50005 17.5001 6.10005 17.2001 5.80005C16.9001 5.50005 16.4 5.30005 16 5.30005H14.7V4.00005C14.7 3.00005 14.3 2.10005 13.6 1.40005C12.9 0.700049 12 0.300049 11 0.300049C10 0.300049 9.10005 0.700049 8.40005 1.40005C7.70005 2.10005 7.30005 3.00005 7.30005 4.00005V5.30005H1.00005C0.800049 5.30005 0.600049 5.40005 0.500049 5.50005C0.400049 5.60005 0.300049 5.80005 0.300049 6.00005C0.300049 6.20005 0.400049 6.40005 0.500049 6.50005C0.600049 6.60005 0.800049 6.70005 1.00005 6.70005H13.3V9.00005C13.3 9.20005 13.4 9.40005 13.5 9.50005C13.8 9.80005 14.2 9.80005 14.5 9.50005C14.6 9.40005 14.7 9.20005 14.7 9.00005V6.70005H16.3V14.3H5.70005V11.3H4.30005V14C4.30005 14.4 4.50005 14.9 4.80005 15.2C5.10005 15.5 5.50005 15.7 6.00005 15.7H16C16.5 15.7 16.9001 15.5 17.2001 15.2C17.5001 14.9 17.7001 14.5 17.7001 14V7.00005ZM13.3 5.30005H8.70005V4.00005C8.70005 3.40005 8.90005 2.80005 9.40005 2.40005C9.80005 2.00005 10.4 1.70005 11 1.70005C11.6 1.70005 12.2 1.90005 12.6 2.40005C13 2.80005 13.3 3.40005 13.3 4.00005V5.30005V5.30005Z"
+                              fill="#999999"
+                            ></path>
+                            <path
+                              class="fill"
+                              d="M3.00005 9.70005H8.00005C8.20005 9.70005 8.40005 9.60005 8.50005 9.50005C8.60005 9.40005 8.70005 9.20005 8.70005 9.00005C8.70005 8.80005 8.60005 8.60005 8.50005 8.50005C8.40005 8.40005 8.20005 8.30005 8.00005 8.30005H3.00005C2.80005 8.30005 2.60005 8.40005 2.50005 8.50005C2.40005 8.60005 2.30005 8.80005 2.30005 9.00005C2.30005 9.20005 2.40005 9.40005 2.50005 9.50005C2.60005 9.60005 2.80005 9.70005 3.00005 9.70005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                        <a href="#" class="block-actions-pr__el actions-pr-el"
+                          ><svg
+                            width="16"
+                            height="12"
+                            viewBox="0 0 16 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              class="fill"
+                              d="M0.300049 6.00005C0.800049 7.60005 1.80005 9.00005 3.20005 10.1C4.60005 11.1 6.30005 11.7 8.00005 11.7C9.70005 11.7 11.4 11.1 12.8 10.1C14.2 9.10005 15.2 7.70005 15.7 6.00005C15.2 4.40005 14.2 2.90005 12.8 1.90005C11.4 0.900049 9.70005 0.300049 8.00005 0.300049C6.30005 0.300049 4.60005 0.900049 3.20005 1.90005C1.80005 2.90005 0.800049 4.40005 0.300049 6.00005ZM4.70005 2.80005C4.70005 2.80005 4.70005 2.70005 4.70005 2.80005V2.60005L4.90005 2.50005C6.80005 1.50005 9.20005 1.50005 11.1 2.50005L11.2 2.60005V2.80005C11.2 2.80005 11.2 2.80005 11.2 2.90005C11.2 3.00005 11.2 3.00005 11.2 3.10005C11.2 4.00005 10.9 4.80005 10.2 5.40005C9.60005 6.00005 8.70005 6.40005 7.90005 6.40005C7.10005 6.40005 6.30005 6.00005 5.70005 5.30005C5.00005 4.70005 4.70005 3.90005 4.70005 3.00005C4.70005 2.90005 4.70005 2.80005 4.70005 2.80005ZM3.30005 3.60005L3.40005 4.20005C3.70005 5.20005 4.20005 6.10005 5.10005 6.70005C5.90005 7.30005 6.90005 7.70005 8.00005 7.70005C9.00005 7.70005 10.1 7.30005 10.9 6.70005C11.7 6.10005 12.3 5.20005 12.6 4.20005L12.7 3.60005L13.1 4.00005C13.6 4.60005 14 5.20005 14.3 5.80005V6.00005L14.2 6.10005C13.7 7.30005 12.8 8.40005 11.7 9.10005C10.6 9.80005 9.40005 10.2 8.10005 10.3H8.00005H7.90005C6.60005 10.3 5.40005 9.90005 4.30005 9.10005C3.20005 8.40005 2.30005 7.30005 1.80005 6.10005L1.70005 6.00005L1.80005 5.90005C2.10005 5.20005 2.50005 4.60005 2.90005 4.00005L3.30005 3.60005Z"
+                              fill="#999999"
+                            ></path></svg
+                        ></a>
+                      </div>
+                      <a href="#" class="products-el__hover"
+                        ><div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div
+                      ></a>
+                      <div class="products-el__img">
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/2.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/3.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                        <img
+                          src="/img/1.jpg"
+                          alt=""
+                          class="products-el__img-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products-el__body">
+                    <div class="products-el__dots block-dots">
+                      <div class="block-dots__el active"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                      <div class="block-dots__el"></div>
+                    </div>
+
+                    <a href="#" class="products-el__title"
+                      >Керамическая плитка для стен Roca Abbey Suite Lines Roble
+                      Rectificado 40x120</a
+                    >
+                    <div class="products-el__info">
+                      <p>Страна: Россия</p>
+                      <p>Коллекция: Agat</p>
+                    </div>
+                    <div class="products-el__cost">990 руб/шт</div>
+                  </div>
+                  <div class="products-el__dropdown wrap-calc">
+                    <div
+                      class="block-calc-product products-el__calc"
+                      data-count="8"
+                      data-m="1.44"
+                      data-cost="990"
+                    >
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="number"
+                            class="calc-product-act__inp block-calc-product__count"
+                            value="8"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">шт</div>
+                      </div>
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="text"
+                            class="calc-product-act__inp block-calc-product__m"
+                            value="1.44"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">м<sup>2</sup></div>
+                      </div>
+                      <div class="block-calc-product__el calc-product-el">
+                        <div class="calc-product-act">
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_min"
+                          >
+                            <svg
+                              width="13"
+                              height="2"
+                              viewBox="0 0 13 2"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 1H12.8405"
+                                stroke="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                          <input
+                            type="text"
+                            class="calc-product-act__inp block-calc-product__pack"
+                            value="1"
+                          />
+                          <div
+                            class="calc-product-act__btn calc-product-act__btn_plus"
+                          >
+                            <svg
+                              width="13"
+                              height="12"
+                              viewBox="0 0 13 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.840515 6.5H12.8405V5.5H0.840515V6.5ZM7.34052 12V0H6.34052V12H7.34052Z"
+                                fill="#333333"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="calc-product-el__text">уп</div>
+                      </div>
+                    </div>
+                    <p class="text-info-gray text-info-gray_margin">
+                      Общая стоимость
+                    </p>
+                    <p class="text-cost wrap-calc__cost">
+                      <span class="wrap-calc__cost-val">990</span> руб
+                    </p>
+                    <a href="#" class="btn-def products-el__btn"
+                      ><span>в корзину</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
+
+</div> <!--  /site-container -->
+
+<script src="js/libs.js"></script>
+<script src="js/main.min.js"></script>
+
+
+
+</body>
+
+</html>
